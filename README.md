@@ -50,3 +50,41 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/GuilhermeCosM/Open-Car.git
+
+Acesse a pasta do projeto:
+
+```bash
+cd Open-Car
+```
+
+Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+Execute a aplicação:
+
+```bash
+python app.py
+```
+
+Abra no navegador:
+
+```bash
+http://127.0.0.1:5000
+```
+
+## Estrutura do Projeto
+
+```bash
+├── __pycache__/
+├── controllers/
+├── instance/
+├── models/
+├── static/
+├── templates/
+├── app.py
+└── README.md
+```
+
